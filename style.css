@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+.head{
+    margin-left: 20%;
+    margin-top: 30px;
+   color: white;
+}
+
+#contactForm{
+  line-height: 25px;
+  margin-top: 2%;
+  background: transparent;
+  border: 2px solid white;
+  width: 40%;
+  height: 70vh;
+  margin-left: 20%;
+ padding-left: 50px;
+ padding-top: 20px;
+ 
+}
+body{
+    background: linear-gradient(100deg,rgb(185, 114, 126),green);
+}
+.error {
+    color: red;
+}
+
+textarea{
+    width: 31%;}
+label{
+    color: white;
+}
+#successMessage{
+     color:rgb(37, 7, 66) ;
+}
+button{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    height: 30px;
+    font-size: x-small;
+    width: 35%; font-weight: bold;
+    color: blueviolet;
+}
+button:hover{
+    border: 2px solid rgb(252, 252, 252);
+    border-radius: 20px;
+    height: 30px;
+    font-size: x-small;
+    width: 35%;
+    background-color: blueviolet;
+    color:black;
+    transition: all 0.8s;
+    font-weight: bold;
+}
